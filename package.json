@@ -1,0 +1,15 @@
+{
+  "name": "perspective-ai-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for AI model recommendations - answers 'which AI model should I use?' with data from perspectiveai.xyz",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "perspective-ai-mcp": "./index.js"
+  },
+  "keywords": ["mcp", "ai", "chatgpt", "claude", "gemini", "comparison", "recommendation"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
