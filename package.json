@@ -7,9 +7,21 @@
   "bin": {
     "perspective-ai-mcp": "./index.js"
   },
-  "keywords": ["mcp", "ai", "chatgpt", "claude", "gemini", "comparison", "recommendation"],
+  "keywords": [
+    "mcp",
+    "ai",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "comparison",
+    "recommendation"
+  ],
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manupov/perspective-ai-mcp.git"
   }
 }
