@@ -1,0 +1,8 @@
+name = "perspective-ai-mcp-api"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[env.production]
+routes = [
+  { pattern = "mcp.perspectiveai.xyz/*", zone_name = "perspectiveai.xyz" }
+]
